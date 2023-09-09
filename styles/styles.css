@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  font-family: "Rubik";
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*bss site */
+.header-stripe {
+  text-align: center;
+  background-color: #34B3D0;
+  color: white;
+  height: 50px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link-box {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 150px;
+  border-left: 1px solid lightgray;
+}
+
+.nav-link-box1 {
+  text-align: center;
+  width: 150px;
+}
+.nav-link-box1 img {
+  width: 70px;
+  margin: 5px 0;
+}
+
+.nav-link-box2 {
+  text-align: center;
+  width: 150px;
+}
+
+.main-banner {
+  height: 500px;
+  width: 100%;
+}
+.main-banner img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}/*# sourceMappingURL=styles.css.map */
