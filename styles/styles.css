@@ -64,7 +64,7 @@ img {
 
 .main-banner {
   position: relative;
-  height: 400px;
+  height: 600px;
   width: 100%;
 }
 .main-banner img {
@@ -152,7 +152,6 @@ img {
 
 .mech-seals {
   display: flex;
-  gap: 20px;
   justify-content: center;
   align-items: center;
   margin: 20px;
@@ -163,6 +162,9 @@ img {
   height: 550px;
   text-align: left;
   background-color: #f2f2f2;
+}
+.mech-box img {
+  border: 1px solid #e6e6e6;
 }
 .mech-box h4 {
   padding: 20px 60px;
